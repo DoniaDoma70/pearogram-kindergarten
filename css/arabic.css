@@ -1,0 +1,89 @@
+/*         Index         */
+/*--font--*/
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Cairo&family=El+Messiri&display=swap');
+
+body, h1, h2, h3, h4, h5{
+    font-family: 'Almarai', sans-serif;
+    direction: rtl;
+}
+
+p, a, div{
+    font-family: 'Cairo', sans-serif;
+}
+
+.testimonial-carousel{
+    direction: ltr;
+}
+
+
+/* Footer */
+
+.newsLetterHead{
+    float: right;
+}
+
+.Quick-Links{
+    left: 70px;
+}
+
+.GetInTouch{
+    right: 55px;
+}
+
+.footerLogoImg{
+    margin-left: 145px;
+}
+
+ /* Testimonials */
+
+ .fa-quote-left{
+    float: right;
+ }
+
+ .testimonialPara{
+    margin-left: 150px;
+ }
+
+ @media (max-width : 375px){
+    .testimonialPara{
+        margin-left: 70px;
+     }
+ }
+
+ /*  Book Seat  */
+
+ .boolSeatDiv{
+    text-align: start;
+ }
+
+ /*  About Start  */
+
+ .aboutUsDiv{
+    text-align: start;
+ }
+
+ /*  Facilities Start  */
+
+ .FacilitiesDiv{
+    text-align: start;
+ }
+
+ /*  Header Start  */
+
+ .HeaderDiv{
+    text-align: start !important;
+ }
+
+ /*  navbar  */
+
+ @media (max-width : 1024px){
+    .joinClassNavbar{
+      width: 80px;
+    }
+  }
+  
+  @media (max-width : 1023px){
+    .joinClassNavbar{
+      width: auto ;
+    }
+  }
